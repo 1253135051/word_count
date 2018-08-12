@@ -24,4 +24,5 @@ urlpatterns = [
     path('', function.home),
     path('count/', function.count),
     path('login/', function.login),
+    path('about/', function.about),
 ]
