@@ -1,0 +1,8 @@
+<meta charset="utf-8">
+<h1>统计结果，总字数为{{ count }}字</h1>
+<p>输入结果： <br>{{text}}</p>
+<p>出现频率最高的数字是：<br> {{sorted}}</p>
+<h2>出现频率</h2>
+{% for key,value in sorted %}
+	{{key}} - {{value}}	
+{% endfor %}

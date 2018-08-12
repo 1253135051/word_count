@@ -1,0 +1,39 @@
+<JOB>
+  <MOUDLE status="true" name="abc">
+  </MOUDLE>
+  <MOUDLE status="true" name="absest">
+    <PARAMETER name="leftshift" tag="FALSE" VALID="TRUE" >5.000000</PARAMETER>
+    <PARAMETER name="timewindow" tag="FALSE" VALID="TRUE" >50.000000</PARAMETER>
+    <PARAMETER name="hodsrc" tag="FALSE" VALID="TRUE" >First break</PARAMETER>
+    <PARAMETER name="verbose" tag="FALSE" VALID="TRUE" >0</PARAMETER>
+    <PARAMETER name="compid" tag="FALSE" VALID="TRUE" >-1</PARAMETER>
+  </MOUDLE>
+  <JOBINFORMATION>
+    <PROJECT>HPC1</PROJECT>
+    <SURVEY>training2014 </SURVEY>
+    <LINE>test</LINE> 
+    <USER/>
+    <HOSTNAME/>
+    <DBNAME>geoeast</DBNAME>
+    <DBUSER>geou1</DBUSER>
+    <DBPWD>geou1</DBPWD>
+  </JOBINFORMATION>
+  <PLOT>
+    <POM IDX="6" ID="1">
+      <RECT>
+        <X>88px</X>
+        <Y>92px</Y>
+      </RECT>
+      <PREV/>
+    </POM>
+    <POM IDX="7" ID="2">
+      <RECT>
+        <X>437px</X>
+        <Y>114px</Y>
+      </RECT>
+      <PREV>
+        <item ID="6"  channel="0">
+      </PREV>
+    </POM>
+  </PLOT>
+</JOB>
